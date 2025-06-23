@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
 
-st.title("Beam and Half-Cylinder Concrete Visualizer")
+st.title("Beam Support Visualizer")
 
 st.sidebar.header("Beam and Concrete Parameters")
 unit_system = st.sidebar.selectbox("Select unit system:", ["SI (m)", "Imperial (in)"])
